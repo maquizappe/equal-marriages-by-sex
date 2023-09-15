@@ -12,6 +12,17 @@ svg {
 
 }
 
+.x-axis path.domain {
+    stroke: white;
+}
+  
+
+  
+  g > .axis > path {
+    stroke: white; /* Change the color of the axis line to white */
+    
+}
+
 .textScrolling{
     margin-top:10px;
 }
@@ -28,3 +39,9 @@ img{
     margin-top: 50px;
 
 }
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    
+   }
